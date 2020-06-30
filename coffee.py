@@ -1,7 +1,19 @@
-number_of_cups = int(input("Write how many cups of coffee you will need:\n"))
+
 print("For ", number_of_cups, " cups of coffee you will need:\n",
       number_of_cups * 200, " ml of water\n", number_of_cups * 50,
       " ml of milk\n", number_of_cups * 15, " g of coffee beans")
+
+# Запрос запаса ингридиентов
+stock_water = input()
+stock_milk = input()
+stock_coffee = input()
+
+# Запрос необходимого количества чашек кофе
+number_of_cups = int(input("Write how many cups of coffee you will need:\n"))
+
+
+
+
 
 Write how many ml of water the coffee machine has:
 > 300
