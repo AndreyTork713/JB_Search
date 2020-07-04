@@ -1,8 +1,7 @@
-
-print("For ", number_of_cups, " cups of coffee you will need:\n",
+"""print("For ", number_of_cups, " cups of coffee you will need:\n",
       number_of_cups * 200, " ml of water\n", number_of_cups * 50,
-      " ml of milk\n", number_of_cups * 15, " g of coffee beans")
-
+     " ml of milk\n", number_of_cups * 15, " g of coffee beans")
+"""
 # Запрос запаса ингридиентов
 stock_water = int(input('Write how many ml of water the coffee machine has:'))
 stock_milk = int(input('Write how many ml of milk the coffee machine has:'))
@@ -28,15 +27,14 @@ else:
     can_cook_c = (stock_coffee - needs_coffee) // 15
 
     n = min(can_cook_c, can_cook_m, can_cook_w)
-    print("I can make that amount of coffee (and even", n," more than that)")
+    print("I can make that amount of coffee (and even", n, " more than that)")
 
+# Yes, I can make that amount of coffee
 
-Yes, I can make that amount of coffee
+# No, I can make only 2 cups of coffee
 
-No, I can make only 2 cups of coffee
+# No, I can make only 0 cups of coffee
 
-No, I can make only 0 cups of coffee
+# Yes, I can make that amount of coffee
 
-Yes, I can make that amount of coffee
-
-Yes, I can make that amount of coffee (and even 1 more than that)
+# Yes, I can make that amount of coffee (and even 1 more than that)
