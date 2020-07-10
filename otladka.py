@@ -25,3 +25,6 @@ else:
     n = min(can_cook_c, can_cook_m, can_cook_w)
     pass
     print("Пожалуйста, ваш кофе! Ещё можно приготовить", n, " чашек кофе.")
+
+    make_only = min(stock_w // 200, stock_m // 50, stock_coffee // 15)
+    print('No, I can make only', make_only,' cups of coffee')
