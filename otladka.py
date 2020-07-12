@@ -29,6 +29,16 @@ else:
     make_only = min(stock_w // 200, stock_m // 50, stock_coffee // 15)
     print('No, I can make only', make_only,' cups of coffee')
 
+    # Yes, I can make that amount of coffee
+
+    # No, I can make only 2 cups of coffee
+
+    # No, I can make only 0 cups of coffee
+
+    # Yes, I can make that amount of coffee
+
+    # Yes, I can make that amount of coffee (and even 1 more than that)
+
 # 12.0702020
 """Здравствуй! Вы можете значительно упростить свой код,
  просто используя make_only для вычисления и печати того, что вам нужно напечатать.
