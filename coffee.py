@@ -33,18 +33,13 @@ elif stock_water // needs_water == 0 and stock_milk // needs_milk == 0 and stock
     else:
         print('No, I can make only 0 cups of coffee')
 
+elif make_only < number_of_cups:
+    print('No, I can make only', make_only, ' cups of coffee')
+
 else:
-    if n > 0:
-        print("I can make that amount of coffee (and even", n, " more than that)")
-    else:
-        print("I can make that amount of coffee (and even 0  more than that)")
+    print("Yes, I can make that amount of coffee (and even", n, " more than that)")
 
-# Yes, I can make that amount of coffee
-
-# No, I can make only 2 cups of coffee
-
-# No, I can make only 0 cups of coffee
-
-# Yes, I can make that amount of coffee
-
-# Yes, I can make that amount of coffee (and even 1 more than that)
+# if n > 0:
+# print("Yes, I can make that amount of coffee (and even", n, " more than that)")
+# else:
+#    print("Yes, I can make that amount of coffee (and even 0  more than that)")
